@@ -22,7 +22,7 @@ namespace inventory
 
         private void button7_Click(object sender, EventArgs e)
         {
-            Program.Back();
+            Program.GoHome();
             this.Hide();
         }
     }

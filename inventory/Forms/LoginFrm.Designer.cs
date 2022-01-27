@@ -42,6 +42,7 @@
             this.AdminLogin = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.label6 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
@@ -93,7 +94,7 @@
             this.UsernameTx.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.UsernameTx.Font = new System.Drawing.Font("Tajawal Medium", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.UsernameTx.Location = new System.Drawing.Point(840, 296);
-            this.UsernameTx.Margin = new System.Windows.Forms.Padding(0);
+            this.UsernameTx.Margin = new System.Windows.Forms.Padding(5);
             this.UsernameTx.Multiline = true;
             this.UsernameTx.Name = "UsernameTx";
             this.UsernameTx.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -101,6 +102,7 @@
             this.UsernameTx.TabIndex = 4;
             this.UsernameTx.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.UsernameTx.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.UsernameTx.Validating += new System.ComponentModel.CancelEventHandler(this.UsernameTx_Validating);
             // 
             // PwdTx
             // 
@@ -115,6 +117,7 @@
             this.PwdTx.TabIndex = 5;
             this.PwdTx.TabStop = false;
             this.PwdTx.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.PwdTx.TextChanged += new System.EventHandler(this.PwdTx_TextChanged);
             // 
             // LoginBt
             // 
@@ -177,11 +180,12 @@
             this.AdminLogin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.AdminLogin.Font = new System.Drawing.Font("Tajawal Medium", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.AdminLogin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(86)))), ((int)(((byte)(174)))));
-            this.AdminLogin.Location = new System.Drawing.Point(909, 547);
+            this.AdminLogin.Location = new System.Drawing.Point(923, 547);
             this.AdminLogin.Name = "AdminLogin";
-            this.AdminLogin.Size = new System.Drawing.Size(163, 18);
+            this.AdminLogin.Size = new System.Drawing.Size(135, 18);
             this.AdminLogin.TabIndex = 10;
-            this.AdminLogin.Text = "تسجيل الدخول كمسؤول";
+            this.AdminLogin.Text = "تسجيل الدخول كزائر";
+            this.AdminLogin.Click += new System.EventHandler(this.AdminLogin_Click);
             // 
             // pictureBox1
             // 
@@ -197,6 +201,15 @@
             // errorProvider1
             // 
             this.errorProvider1.ContainerControl = this;
+            this.errorProvider1.Icon = ((System.Drawing.Icon)(resources.GetObject("errorProvider1.Icon")));
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(771, 90);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(0, 19);
+            this.label6.TabIndex = 11;
             // 
             // LoginFrm
             // 
@@ -204,6 +217,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1264, 761);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.AdminLogin);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -244,6 +258,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label AdminLogin;
         private System.Windows.Forms.ErrorProvider errorProvider1;
+        private System.Windows.Forms.Label label6;
     }
 }
 

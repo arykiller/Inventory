@@ -38,17 +38,17 @@
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.uNameTx = new System.Windows.Forms.TextBox();
+            this.uPwdTx = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.uPwdCTx = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.uRole = new System.Windows.Forms.ComboBox();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.label7 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
+            this.AddBt = new System.Windows.Forms.Button();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
@@ -132,6 +132,7 @@
             this.dataGridView1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.dataGridView1.Size = new System.Drawing.Size(834, 456);
             this.dataGridView1.TabIndex = 1;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // Column1
             // 
@@ -178,30 +179,30 @@
             this.label4.TabIndex = 4;
             this.label4.Text = "اسم المستخدم";
             // 
-            // textBox1
+            // uNameTx
             // 
-            this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(233)))), ((int)(((byte)(231)))));
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Tajawal", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(52, 356);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox1.Size = new System.Drawing.Size(300, 34);
-            this.textBox1.TabIndex = 5;
+            this.uNameTx.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.uNameTx.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(233)))), ((int)(((byte)(231)))));
+            this.uNameTx.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.uNameTx.Font = new System.Drawing.Font("Tajawal", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.uNameTx.Location = new System.Drawing.Point(52, 356);
+            this.uNameTx.Name = "uNameTx";
+            this.uNameTx.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.uNameTx.Size = new System.Drawing.Size(300, 34);
+            this.uNameTx.TabIndex = 5;
             // 
-            // textBox2
+            // uPwdTx
             // 
-            this.textBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(233)))), ((int)(((byte)(231)))));
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Tajawal", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(52, 432);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.PasswordChar = '*';
-            this.textBox2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox2.Size = new System.Drawing.Size(300, 34);
-            this.textBox2.TabIndex = 7;
+            this.uPwdTx.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.uPwdTx.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(233)))), ((int)(((byte)(231)))));
+            this.uPwdTx.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.uPwdTx.Font = new System.Drawing.Font("Tajawal", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.uPwdTx.Location = new System.Drawing.Point(52, 432);
+            this.uPwdTx.Name = "uPwdTx";
+            this.uPwdTx.PasswordChar = '*';
+            this.uPwdTx.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.uPwdTx.Size = new System.Drawing.Size(300, 34);
+            this.uPwdTx.TabIndex = 7;
             // 
             // label3
             // 
@@ -216,18 +217,18 @@
             this.label3.TabIndex = 6;
             this.label3.Text = "كلمة المرور";
             // 
-            // textBox3
+            // uPwdCTx
             // 
-            this.textBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(233)))), ((int)(((byte)(231)))));
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.Font = new System.Drawing.Font("Tajawal", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(52, 509);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.PasswordChar = '*';
-            this.textBox3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox3.Size = new System.Drawing.Size(300, 34);
-            this.textBox3.TabIndex = 9;
+            this.uPwdCTx.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.uPwdCTx.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(233)))), ((int)(((byte)(231)))));
+            this.uPwdCTx.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.uPwdCTx.Font = new System.Drawing.Font("Tajawal", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.uPwdCTx.Location = new System.Drawing.Point(52, 509);
+            this.uPwdCTx.Name = "uPwdCTx";
+            this.uPwdCTx.PasswordChar = '*';
+            this.uPwdCTx.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.uPwdCTx.Size = new System.Drawing.Size(300, 34);
+            this.uPwdCTx.TabIndex = 9;
             // 
             // label5
             // 
@@ -269,24 +270,24 @@
             this.label6.TabIndex = 11;
             this.label6.Text = "دور المستخدم";
             // 
-            // comboBox1
+            // uRole
             // 
-            this.comboBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.comboBox1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(233)))), ((int)(((byte)(231)))));
-            this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox1.Font = new System.Drawing.Font("Tajawal", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.uRole.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.uRole.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.uRole.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(233)))), ((int)(((byte)(231)))));
+            this.uRole.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.uRole.Font = new System.Drawing.Font("Tajawal", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.uRole.FormattingEnabled = true;
+            this.uRole.Items.AddRange(new object[] {
             "مسؤول",
             "مدخل بيانات",
             "مسؤول تقني",
             "مسؤول المخزن"});
-            this.comboBox1.Location = new System.Drawing.Point(52, 603);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.comboBox1.Size = new System.Drawing.Size(300, 37);
-            this.comboBox1.TabIndex = 13;
+            this.uRole.Location = new System.Drawing.Point(52, 603);
+            this.uRole.Name = "uRole";
+            this.uRole.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.uRole.Size = new System.Drawing.Size(300, 37);
+            this.uRole.TabIndex = 13;
             // 
             // errorProvider1
             // 
@@ -305,20 +306,21 @@
             this.label7.TabIndex = 14;
             this.label7.Text = "_________________________________________________________________";
             // 
-            // button3
+            // AddBt
             // 
-            this.button3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(86)))), ((int)(((byte)(174)))));
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Tajawal", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(77, 670);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(250, 35);
-            this.button3.TabIndex = 18;
-            this.button3.Text = "أضافة";
-            this.button3.UseVisualStyleBackColor = false;
+            this.AddBt.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.AddBt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(86)))), ((int)(((byte)(174)))));
+            this.AddBt.FlatAppearance.BorderSize = 0;
+            this.AddBt.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AddBt.Font = new System.Drawing.Font("Tajawal", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AddBt.ForeColor = System.Drawing.Color.White;
+            this.AddBt.Location = new System.Drawing.Point(77, 670);
+            this.AddBt.Name = "AddBt";
+            this.AddBt.Size = new System.Drawing.Size(250, 35);
+            this.AddBt.TabIndex = 18;
+            this.AddBt.Text = "أضافة";
+            this.AddBt.UseVisualStyleBackColor = false;
+            this.AddBt.Click += new System.EventHandler(this.button3_Click);
             // 
             // tabControl1
             // 
@@ -336,17 +338,17 @@
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.Color.White;
-            this.tabPage1.Controls.Add(this.button3);
-            this.tabPage1.Controls.Add(this.textBox2);
+            this.tabPage1.Controls.Add(this.AddBt);
+            this.tabPage1.Controls.Add(this.uPwdTx);
             this.tabPage1.Controls.Add(this.label5);
             this.tabPage1.Controls.Add(this.label7);
-            this.tabPage1.Controls.Add(this.textBox3);
+            this.tabPage1.Controls.Add(this.uPwdCTx);
             this.tabPage1.Controls.Add(this.label2);
             this.tabPage1.Controls.Add(this.label3);
-            this.tabPage1.Controls.Add(this.comboBox1);
+            this.tabPage1.Controls.Add(this.uRole);
             this.tabPage1.Controls.Add(this.checkBox1);
             this.tabPage1.Controls.Add(this.label4);
-            this.tabPage1.Controls.Add(this.textBox1);
+            this.tabPage1.Controls.Add(this.uNameTx);
             this.tabPage1.Controls.Add(this.label6);
             this.tabPage1.Location = new System.Drawing.Point(4, 28);
             this.tabPage1.Name = "tabPage1";
@@ -687,14 +689,14 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox uNameTx;
+        private System.Windows.Forms.TextBox uPwdTx;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox uPwdCTx;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox uRole;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
@@ -702,7 +704,7 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button AddBt;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.TextBox textBox4;

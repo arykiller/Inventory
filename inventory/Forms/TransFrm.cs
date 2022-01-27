@@ -19,7 +19,7 @@ namespace inventory
 
         private void BackBt_Click(object sender, EventArgs e)
         {
-            Program.Back();
+            Program.GoHome();
             this.Hide();
         }
     }

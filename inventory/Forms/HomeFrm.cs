@@ -62,7 +62,7 @@ namespace inventory
 
         private void HomeFrm_Load(object sender, EventArgs e)
         {
-            if (Program.role != 0)
+            if (Program.role != "مسؤول")
             {
                 button3.Enabled = false;
             }
