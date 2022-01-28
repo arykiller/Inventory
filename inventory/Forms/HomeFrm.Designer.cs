@@ -117,7 +117,6 @@
             this.label2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label2.Size = new System.Drawing.Size(131, 42);
             this.label2.TabIndex = 2;
-            this.label2.Text = "1500";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel2
@@ -153,7 +152,6 @@
             this.label3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label3.Size = new System.Drawing.Size(131, 42);
             this.label3.TabIndex = 2;
-            this.label3.Text = "1500";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label4

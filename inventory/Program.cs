@@ -26,6 +26,24 @@ namespace inventory
             homeFrm.Show();
         }
 
+        //Function to Get the number of database row
+        public static String GetCount(String table)
+        {
+            using (SqlCommand cmd = new SqlCommand("SELECT COUNT(*) As Count FROM " + table + "", Program.Con))
+            {
+                cmd.CommandType = CommandType.Text;
+                Program.Con.Open();
+                object o = cmd.ExecuteScalar();
+                if (o != null)
+                {
+                   return o.ToString();
+                }
+                Program.Con.Close();
+                return "0";
+            }
+            
+        }
+
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -34,7 +52,7 @@ namespace inventory
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LoginFrm());
+            Application.Run(new HomeFrm());
         }
     }
 }

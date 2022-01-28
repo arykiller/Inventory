@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace inventory
 {
@@ -66,6 +67,17 @@ namespace inventory
             {
                 button3.Enabled = false;
             }
+            if (Program.role == "زائر")
+            {
+                button1.Enabled = false;
+                button2.Enabled = false;
+                button3.Enabled = false;
+            }
+
+            //Count the number of row in database
+            //label3.Text = Program.GetCount();
+            //label4.Text = Program.GetCount();
+            
         }
 
         private void LogoutBt_Click(object sender, EventArgs e)
