@@ -29,10 +29,8 @@ E:\Projects\Programing\Inventory\inventory\obj\Debug\inventory.csproj.GenerateRe
 E:\Projects\Programing\Inventory\inventory\obj\Debug\inventory.csproj.CoreCompileInputs.cache
 E:\Projects\Programing\Inventory\inventory\obj\Debug\inventory.exe
 E:\Projects\Programing\Inventory\inventory\obj\Debug\inventory.pdb
-E:\Projects\Programing\Inventory\inventory\obj\Debug\inventory.csproj.AssemblyReference.cache
-E:\Projects\Programing\inventory\inventory\bin\Debug\projectdb.mdf
-E:\Projects\Programing\inventory\inventory\bin\Debug\projectdb_log.ldf
 E:\Projects\Programing\Inventory\inventory\bin\Debug\inventory.exe.manifest
 E:\Projects\Programing\Inventory\inventory\bin\Debug\inventory.application
 E:\Projects\Programing\Inventory\inventory\obj\Debug\inventory.exe.manifest
 E:\Projects\Programing\Inventory\inventory\obj\Debug\inventory.application
+E:\Projects\Programing\inventory\inventory\obj\Debug\inventory.csproj.AssemblyReference.cache

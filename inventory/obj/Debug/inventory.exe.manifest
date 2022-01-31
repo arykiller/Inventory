@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="inventory.exe" size="1964504">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="inventory.exe" size="1974744">
       <assemblyIdentity name="inventory" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>rsWHnl9KUt7i0311ZC6QSLChPisVnXb4xaSoxGo9Uo0=</dsig:DigestValue>
+        <dsig:DigestValue>v7f9mCzAGWffsMorsg7D4/rSdMDg1mK1C2ggOylNVdk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -71,31 +71,13 @@
       <dsig:DigestValue>foygPQCz2v1gCxBhyxwceBxwXwV/cKDQa36V0Vb3tNs=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="inventory.exe.config" size="434">
+  <file name="inventory.exe.config" size="443">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>yuRPe2IXLYpPnX9a6DttFoYGHUtTjDtQzu6SI10H4s4=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="projectdb.mdf" size="8388608" writeableType="applicationData">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>0aPmJ6H68bLvAxA+sDeby/5ialDWqJsgzVooxbdd6V0=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="projectdb_log.ldf" size="8388608" writeableType="applicationData">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>GQ4bWk3MrCgRwc8iKnPo/51cPJPOh7a7nkjP/4qoDB8=</dsig:DigestValue>
+      <dsig:DigestValue>Qyt0X4TUZyWTnli3tO+OUOy/71BfRWlGTdyUYSG4OB0=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

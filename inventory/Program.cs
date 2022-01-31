@@ -15,10 +15,12 @@ namespace inventory
 
         //Define Global Login Variables
         public static string role;
+        public static bool emptyError;
 
         //Define Connection String
-        public static SqlConnection Con = new SqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["con"].ConnectionString);
+        //public static SqlConnection Con = new SqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["con"].ConnectionString);
 
+        public static SqlConnection Con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Ammar\Documents\inventory.mdf;Integrated Security=True;Connect Timeout=30");
         //Function To open the home page
         public static void GoHome()
         {
@@ -29,19 +31,37 @@ namespace inventory
         //Function to Get the number of database row
         public static String GetCount(String table)
         {
-            using (SqlCommand cmd = new SqlCommand("SELECT COUNT(*) As Count FROM " + table + "", Program.Con))
+            using (SqlCommand cmd = new SqlCommand("SELECT COUNT(*) As Count FROM " + table + "", Con))
             {
                 cmd.CommandType = CommandType.Text;
-                Program.Con.Open();
+                Con.Open();
                 object o = cmd.ExecuteScalar();
                 if (o != null)
                 {
                    return o.ToString();
                 }
-                Program.Con.Close();
+                Con.Close();
                 return "0";
             }
             
+        }
+        //Display the Values on databse into the datagridview
+        public static object populate(String table)
+        {
+            using (SqlCommand cmd = new SqlCommand("SELECT * FROM " + table + ""))
+            {
+                using (SqlDataAdapter adapter = new SqlDataAdapter())
+                {
+                    cmd.Connection = Con;
+                    adapter.SelectCommand = cmd;
+                    using (DataTable dt = new DataTable())
+                    {
+                        adapter.Fill(dt);
+                        return dt;
+                    }
+                }
+            }
+
         }
 
         /// <summary>
@@ -52,7 +72,7 @@ namespace inventory
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new HomeFrm());
+            Application.Run(new UsersFrm());
         }
     }
 }
