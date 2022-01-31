@@ -49,7 +49,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>v7f9mCzAGWffsMorsg7D4/rSdMDg1mK1C2ggOylNVdk=</dsig:DigestValue>
+        <dsig:DigestValue>cfAGMAZIaDV7G+X2bvJMt6BTdTB2xALOcunZ85nz6VE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -78,6 +78,24 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>Qyt0X4TUZyWTnli3tO+OUOy/71BfRWlGTdyUYSG4OB0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="inventory.mdf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>y1XafQMc+zxVK7knpMMr3btyl7H6FKN7nRsoqheyxWo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="inventory_log.ldf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>62IS+vHujT5h+2isz4YgtNuINEEl/uxkL22D9FZh5Yo=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

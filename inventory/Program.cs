@@ -20,7 +20,7 @@ namespace inventory
         //Define Connection String
         //public static SqlConnection Con = new SqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["con"].ConnectionString);
 
-        public static SqlConnection Con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Ammar\Documents\inventory.mdf;Integrated Security=True;Connect Timeout=30");
+        public static SqlConnection Con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=E:\Projects\Programing\inventory\inventory\inventory.mdf;Integrated Security=True");
         //Function To open the home page
         public static void GoHome()
         {

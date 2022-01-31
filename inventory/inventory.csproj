@@ -219,6 +219,12 @@
   <ItemGroup>
     <Content Include="Assets\Icons\001_cancel_l5k_icon.ico" />
     <Content Include="Assets\Icons\002_accept_Eby_icon.ico" />
+    <Content Include="inventory.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="inventory_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

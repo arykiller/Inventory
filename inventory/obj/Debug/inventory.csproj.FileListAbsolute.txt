@@ -34,3 +34,5 @@ E:\Projects\Programing\Inventory\inventory\bin\Debug\inventory.application
 E:\Projects\Programing\Inventory\inventory\obj\Debug\inventory.exe.manifest
 E:\Projects\Programing\Inventory\inventory\obj\Debug\inventory.application
 E:\Projects\Programing\inventory\inventory\obj\Debug\inventory.csproj.AssemblyReference.cache
+E:\Projects\Programing\inventory\inventory\bin\Debug\inventory.mdf
+E:\Projects\Programing\inventory\inventory\bin\Debug\inventory_log.ldf
