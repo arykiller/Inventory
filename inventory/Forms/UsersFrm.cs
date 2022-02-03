@@ -269,7 +269,7 @@ namespace inventory
         {
             if (!string.IsNullOrEmpty(searchTx.Text))
             {
-                using (SqlCommand cmd = new SqlCommand("SELECT * FROM Users Where UserName = '" + searchTx.Text + "'"))
+                using (SqlCommand cmd = new SqlCommand("SELECT * FROM Users Where UserName LIKE '%" + searchTx.Text + "%'"))
                 {
                     using (SqlDataAdapter adapter = new SqlDataAdapter())
                     {
