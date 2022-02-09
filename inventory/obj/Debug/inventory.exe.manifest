@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="inventory.exe" size="2063320">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="inventory.exe" size="2064344">
       <assemblyIdentity name="inventory" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>mJ6uEjgIuyVp5Soc4egd7i+nrViPgZOupuWS/Z4zqgc=</dsig:DigestValue>
+        <dsig:DigestValue>fPuuS0J0DqSuWVxfNPlMvghmWhFeipG81+pMGv9iD+c=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -86,7 +86,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>7fmj9Orxc2T6IsekvZM3THGb8BR+DMxxg64fKAoaDCo=</dsig:DigestValue>
+      <dsig:DigestValue>XKtWZvJqbd2gIOEAdIfUtyqbNkhP2QsEzR4gv2lxNYA=</dsig:DigestValue>
     </hash>
   </file>
   <file name="inventory_log.ldf" size="8388608" writeableType="applicationData">
@@ -95,7 +95,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>2KyqhotSHEctXFrSMPv3gxe0bpK2L4O41ucvPrg4HmE=</dsig:DigestValue>
+      <dsig:DigestValue>yHn4AAfVxYqOEhCziaAyI7eLNBc0tFoVlTRqzBRfcdg=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

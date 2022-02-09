@@ -69,6 +69,7 @@ namespace inventory
                     return;            
                 }
             }
+            MessageBox.Show("الرجاء قم باختيار صف");
         }
         private void ItemPopulate()
         {
@@ -129,6 +130,7 @@ namespace inventory
 
         private void TransFrm_Load_1(object sender, EventArgs e)
         {
+
             // TODO: This line of code loads data into the 'inventoryDataSet.Transport' table. You can move, or remove it, as needed.
             this.transportTableAdapter.Fill(this.inventoryDataSet.Transport);
             // TODO: This line of code loads data into the 'inventoryDataSet.Departments' table. You can move, or remove it, as needed.
@@ -141,11 +143,36 @@ namespace inventory
             ItemPopulate();
             Populate();
 
+            iGridView.Columns[0].HeaderText = "ت";
+            iGridView.Columns[1].HeaderText = "المادة";
+            iGridView.Columns[2].HeaderText = "المصدر";
+            iGridView.Columns[3].HeaderText = "الفئة";
+            iGridView.Columns[4].HeaderText = "الكمية";
+            iGridView.Columns[5].HeaderText = "السعر";
+            iGridView.Columns[6].HeaderText = "السعر الكلي";
+            iGridView.Columns[7].HeaderText = "تاريخ الاضافة";
+            iGridView.Columns[8].HeaderText = "الحالة";
+
+            tGridView.Columns[0].HeaderText = "ت";
+            tGridView.Columns[1].HeaderText = "الكمية";
+            tGridView.Columns[2].HeaderText = "المادة";
+            tGridView.Columns[3].HeaderText = "البنابة";
+            tGridView.Columns[4].HeaderText = "القسم";
+
+
         }
 
         private void button3_Click_1(object sender, EventArgs e)
         {
-            TransData();
+            if (quantity.Value <= 0)
+            {
+                errorProvider1.SetError(quantity, "يجب ان تكون الكمية المسلمة اكبر من 0");
+            }
+            else
+            {
+                TransData();
+            }
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -214,12 +241,34 @@ namespace inventory
 
         private void transBt2_Click(object sender, EventArgs e)
         {
-            TransData();
+            if (quantity.Value <= 0)
+            {
+                errorProvider1.SetError(quantity, "يجب ان تكون الكمية المسلمة اكبر من 0");
+            }
+            else
+            {
+                TransData();
+            }
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void numericUpDown2_ValueChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void quantity_ValueChanged(object sender, EventArgs e)
+        {
+            errorProvider1.SetError(quantity, "");
         }
     }
 }
