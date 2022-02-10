@@ -17,10 +17,14 @@ namespace inventory
         public static string role;
         public static bool emptyError;
 
+        static String databaseName = "inventory.mdf";
+        static String path = Path.GetFullPath(Environment.CurrentDirectory);
+        public static SqlConnection Con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=" + path + @"\" + databaseName + ";Integrated Security=True");
         //Define Connection String
+
         //public static SqlConnection Con = new SqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["con"].ConnectionString);
 
-        public static SqlConnection Con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=E:\Projects\Programing\inventory\inventory\inventory.mdf;Integrated Security=True");
+        //public static SqlConnection Con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=E:\Projects\Programing\inventory\inventory\inventory.mdf;Integrated Security=True");
         //Function To open the home page
         public static void GoHome()
         {
