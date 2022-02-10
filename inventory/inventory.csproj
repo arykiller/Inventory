@@ -81,6 +81,9 @@
     <SignManifests>true</SignManifests>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AdvancedDataGridView, Version=0.1.0.10, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ADGV.0.1.0.10\lib\net40\AdvancedDataGridView.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
@@ -122,6 +125,9 @@
     </Compile>
     <Compile Include="Forms\LoginFrm.Designer.cs">
       <DependentUpon>LoginFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="inventoryDataSet.cs">
+      <DependentUpon>inventoryDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="inventoryDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -177,6 +183,7 @@
       <DependentUpon>inventoryDataSet.xsd</DependentUpon>
     </None>
     <None Include="inventory_TemporaryKey.pfx" />
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -235,6 +242,7 @@
   <ItemGroup>
     <Content Include="Assets\Icons\001_cancel_l5k_icon.ico" />
     <Content Include="Assets\Icons\002_accept_Eby_icon.ico" />
+    <None Include="Assets\Reading list-rafiki.png" />
     <Content Include="inventory.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

@@ -37,3 +37,8 @@ E:\Projects\Programing\inventory\inventory\obj\Debug\inventory.csproj.AssemblyRe
 E:\Projects\Programing\inventory\inventory\bin\Debug\inventory.mdf
 E:\Projects\Programing\inventory\inventory\bin\Debug\inventory_log.ldf
 E:\Projects\Programing\Inventory\inventory\obj\Debug\inventory.csproj.ResolveComReference.cache
+E:\Projects\Programing\Inventory\inventory\obj\Debug\inventory.csproj.CopyComplete
+E:\Projects\Programing\Inventory\inventory\bin\Debug\AdvancedDataGridView.dll
+E:\Projects\Programing\Inventory\inventory\bin\Debug\AdvancedDataGridView.xml
+E:\Projects\Programing\Inventory\inventory\bin\Debug\fr\AdvancedDataGridView.resources.dll
+E:\Projects\Programing\Inventory\inventory\bin\Debug\ru\AdvancedDataGridView.resources.dll

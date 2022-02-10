@@ -1514,13 +1514,6 @@ namespace inventory {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public TransportRow FindByID(int ID) {
-                return ((TransportRow)(this.Rows.Find(new object[] {
-                            ID})));
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public override global::System.Data.DataTable Clone() {
                 TransportDataTable cln = ((TransportDataTable)(base.Clone()));
                 cln.InitVars();
@@ -1557,7 +1550,7 @@ namespace inventory {
                 this.columnQuantity = new global::System.Data.DataColumn("Quantity", typeof(int), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnQuantity);
                 this.Constraints.Add(new global::System.Data.UniqueConstraint("Constraint1", new global::System.Data.DataColumn[] {
-                                this.columnID}, true));
+                                this.columnID}, false));
                 this.columnID.AutoIncrement = true;
                 this.columnID.AutoIncrementSeed = -1;
                 this.columnID.AutoIncrementStep = -1;
@@ -3830,14 +3823,6 @@ SELECT ID, ItemID, DepID, BuildingID, Quantity FROM Transport WHERE (ID = @ID)";
                     this.Adapter.UpdateCommand.Connection.Close();
                 }
             }
-        }
-        
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Update, true)]
-        public virtual int Update(int ItemID, int DepID, int BuildingID, int Quantity, int Original_ID, int Original_ItemID, int Original_DepID, int Original_BuildingID, int Original_Quantity) {
-            return this.Update(ItemID, DepID, BuildingID, Quantity, Original_ID, Original_ItemID, Original_DepID, Original_BuildingID, Original_Quantity, Original_ID);
         }
     }
     
