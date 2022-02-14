@@ -122,7 +122,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>Gd8UTpVJJuhKdkXzQP13JKnK5ax4ne5Uddpy3QjMsTA=</dsig:DigestValue>
+      <dsig:DigestValue>ln3vGkqMM+mqzrf5GaHPUWA1ttTjOVMZSEUzBTYRZpo=</dsig:DigestValue>
     </hash>
   </file>
   <file name="inventory_log.ldf" size="8388608" writeableType="applicationData">
@@ -131,7 +131,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>RphT3zXp3Eg9DwKyGSusdRX5XNp8lUb3/JwwSEkga2E=</dsig:DigestValue>
+      <dsig:DigestValue>bKbfVnH4fNTlPzXCwAMAAhxcXbf7DO9JB/KDUc0ncdE=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>
