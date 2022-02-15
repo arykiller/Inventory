@@ -4,11 +4,11 @@ E:\Projects\Programing\Inventory\inventory\bin\Release\inventory.exe.config
 E:\Projects\Programing\Inventory\inventory\bin\Release\inventory.exe.manifest
 E:\Projects\Programing\Inventory\inventory\bin\Release\inventory.application
 E:\Projects\Programing\Inventory\inventory\bin\Release\inventory.exe
-E:\Projects\Programing\Inventory\inventory\bin\Release\inventory.pdb
 E:\Projects\Programing\Inventory\inventory\bin\Release\AdvancedDataGridView.dll
 E:\Projects\Programing\Inventory\inventory\bin\Release\AdvancedDataGridView.xml
 E:\Projects\Programing\Inventory\inventory\bin\Release\fr\AdvancedDataGridView.resources.dll
 E:\Projects\Programing\Inventory\inventory\bin\Release\ru\AdvancedDataGridView.resources.dll
+E:\Projects\Programing\Inventory\inventory\obj\Release\inventory.csproj.AssemblyReference.cache
 E:\Projects\Programing\Inventory\inventory\obj\Release\inventory.csproj.SuggestedBindingRedirects.cache
 E:\Projects\Programing\Inventory\inventory\obj\Release\inventory.csproj.ResolveComReference.cache
 E:\Projects\Programing\Inventory\inventory\obj\Release\inventory.HomeFrm.resources
