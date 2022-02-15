@@ -3,7 +3,7 @@
 [Update]
 Name = inventory
 ProductVersion = 1.0.1.0
-URL = http://www.example.com/downloads/Setup.exe
+URL = https://github.com/arykiller/Inventory/blob/main/inventory/update.txt
 Size = 3125410
 SHA256 = EEC77DF5AF7F48B2FB81E6A2AE3816131425EE3AFE0CA48B78B10BAC687D43E0
 MD5 = 112f5d05e8cb0e31ce5eb0ba5059b42c
@@ -11,13 +11,3 @@ ServerFileName = Setup.exe
 Flags = Sys64
 RegistryKey = HKUD\Software\Ammar's Corp\inventory\Version
 Version = 1.0.1.0
-Description = ;aiu;
-Description1 = [Story 2.0]
-Description2 = Name=Story 2.0
-Description3 = URL=http://www.example.com/download/Story 2.0.MSI
-Description4 = Size=43256
-Description5 = MD5 = 0d9ec0c904e79adf020c3a08e0ca5d
-Description6 = ServerFileName=Story 2.0.MSI
-Description7 = RegistryKey=HKLM\SOFTWARE\Story Teller\Long Story\Version
-Description8 = Version=2.0.0
-Description9 = Description=This fixes some spelling errors in story.txt file.
