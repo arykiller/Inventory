@@ -9,7 +9,6 @@ E:\Projects\Programing\Inventory\inventory\bin\Debug\AdvancedDataGridView.dll
 E:\Projects\Programing\Inventory\inventory\bin\Debug\AdvancedDataGridView.xml
 E:\Projects\Programing\Inventory\inventory\bin\Debug\fr\AdvancedDataGridView.resources.dll
 E:\Projects\Programing\Inventory\inventory\bin\Debug\ru\AdvancedDataGridView.resources.dll
-E:\Projects\Programing\Inventory\inventory\obj\Debug\inventory.csproj.AssemblyReference.cache
 E:\Projects\Programing\Inventory\inventory\obj\Debug\inventory.csproj.SuggestedBindingRedirects.cache
 E:\Projects\Programing\Inventory\inventory\obj\Debug\inventory.csproj.ResolveComReference.cache
 E:\Projects\Programing\Inventory\inventory\obj\Debug\inventory.HomeFrm.resources

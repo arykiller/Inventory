@@ -53,10 +53,10 @@
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label1.Font = new System.Drawing.Font("Tajawal ExtraBold", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(86)))), ((int)(((byte)(174)))));
-            this.label1.Location = new System.Drawing.Point(861, 183);
+            this.label1.Location = new System.Drawing.Point(848, 187);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(259, 51);
+            this.label1.Size = new System.Drawing.Size(280, 51);
             this.label1.TabIndex = 1;
             this.label1.Text = "تسجيل الدخول";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
