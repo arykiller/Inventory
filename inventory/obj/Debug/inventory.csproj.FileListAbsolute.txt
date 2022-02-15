@@ -25,3 +25,4 @@ E:\Projects\Programing\Inventory\inventory\obj\Debug\inventory.application
 E:\Projects\Programing\Inventory\inventory\obj\Debug\inventory.csproj.CopyComplete
 E:\Projects\Programing\Inventory\inventory\obj\Debug\inventory.exe
 E:\Projects\Programing\Inventory\inventory\obj\Debug\inventory.pdb
+E:\Projects\Programing\Inventory\inventory\obj\Debug\inventory.csproj.AssemblyReference.cache
