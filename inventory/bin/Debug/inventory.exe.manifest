@@ -85,7 +85,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>gnbfRdDALKZQEXGX0rvMbquqQEd4jyCWuQ8Rg6vdKxk=</dsig:DigestValue>
+        <dsig:DigestValue>2fp9B5b6U6ofPlE68FY/mgFwqprrdpxkeBYEkLaj4Ro=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -107,13 +107,13 @@
       <dsig:DigestValue>foygPQCz2v1gCxBhyxwceBxwXwV/cKDQa36V0Vb3tNs=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="inventory.exe.config" size="808">
+  <file name="inventory.exe.config" size="189">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>hWWypZ3yZA33f3B5MeZZyyhrSRyKyqUVPCujC47w97g=</dsig:DigestValue>
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
     </hash>
   </file>
   <file name="inventory.mdf" size="8388608" writeableType="applicationData">
