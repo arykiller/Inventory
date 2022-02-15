@@ -88,18 +88,15 @@
             // 
             // UsernameTx
             // 
-            this.UsernameTx.AcceptsReturn = true;
-            this.UsernameTx.AcceptsTab = true;
             this.UsernameTx.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(233)))), ((int)(((byte)(231)))));
             this.UsernameTx.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.UsernameTx.Font = new System.Drawing.Font("Tajawal Medium", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.UsernameTx.Location = new System.Drawing.Point(840, 296);
             this.UsernameTx.Margin = new System.Windows.Forms.Padding(5);
-            this.UsernameTx.Multiline = true;
             this.UsernameTx.Name = "UsernameTx";
             this.UsernameTx.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.UsernameTx.Size = new System.Drawing.Size(300, 35);
-            this.UsernameTx.TabIndex = 4;
+            this.UsernameTx.Size = new System.Drawing.Size(300, 34);
+            this.UsernameTx.TabIndex = 1;
             this.UsernameTx.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.UsernameTx.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             this.UsernameTx.Validating += new System.ComponentModel.CancelEventHandler(this.UsernameTx_Validating);
@@ -110,11 +107,10 @@
             this.PwdTx.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.PwdTx.Font = new System.Drawing.Font("Tajawal", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.PwdTx.Location = new System.Drawing.Point(840, 370);
-            this.PwdTx.Multiline = true;
             this.PwdTx.Name = "PwdTx";
             this.PwdTx.PasswordChar = '*';
-            this.PwdTx.Size = new System.Drawing.Size(300, 35);
-            this.PwdTx.TabIndex = 5;
+            this.PwdTx.Size = new System.Drawing.Size(300, 34);
+            this.PwdTx.TabIndex = 2;
             this.PwdTx.TabStop = false;
             this.PwdTx.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.PwdTx.TextChanged += new System.EventHandler(this.PwdTx_TextChanged);
@@ -129,7 +125,7 @@
             this.LoginBt.Location = new System.Drawing.Point(890, 464);
             this.LoginBt.Name = "LoginBt";
             this.LoginBt.Size = new System.Drawing.Size(200, 35);
-            this.LoginBt.TabIndex = 6;
+            this.LoginBt.TabIndex = 4;
             this.LoginBt.Text = "تسجيل الدخول";
             this.LoginBt.UseVisualStyleBackColor = false;
             this.LoginBt.Click += new System.EventHandler(this.button1_Click);
@@ -144,7 +140,7 @@
             this.ShowPwdCb.Location = new System.Drawing.Point(1015, 409);
             this.ShowPwdCb.Name = "ShowPwdCb";
             this.ShowPwdCb.Size = new System.Drawing.Size(125, 23);
-            this.ShowPwdCb.TabIndex = 7;
+            this.ShowPwdCb.TabIndex = 3;
             this.ShowPwdCb.Text = "أظهار كلمة المرور";
             this.ShowPwdCb.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.ShowPwdCb.UseVisualStyleBackColor = false;
@@ -183,7 +179,7 @@
             this.AdminLogin.Location = new System.Drawing.Point(923, 547);
             this.AdminLogin.Name = "AdminLogin";
             this.AdminLogin.Size = new System.Drawing.Size(135, 18);
-            this.AdminLogin.TabIndex = 10;
+            this.AdminLogin.TabIndex = 5;
             this.AdminLogin.Text = "تسجيل الدخول كزائر";
             this.AdminLogin.Click += new System.EventHandler(this.AdminLogin_Click);
             // 
