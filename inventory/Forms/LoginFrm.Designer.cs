@@ -111,7 +111,6 @@
             this.PwdTx.PasswordChar = '*';
             this.PwdTx.Size = new System.Drawing.Size(300, 34);
             this.PwdTx.TabIndex = 2;
-            this.PwdTx.TabStop = false;
             this.PwdTx.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.PwdTx.TextChanged += new System.EventHandler(this.PwdTx_TextChanged);
             // 
